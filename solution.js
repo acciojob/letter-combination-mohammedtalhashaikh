@@ -2,7 +2,7 @@ function letterCombinations(input_digit) {
   //Complete the function
   const map = [0,1,'abc','def','ghi','jkl','mno','pqrs','tuv','wxyz'];
   const res = [];
-  const que = [];
+  const que = [''];
   let str ='';
 
   while(que.length>0){
