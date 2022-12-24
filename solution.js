@@ -14,7 +14,7 @@ function letterCombinations(input_digit) {
       const n = Number(input_digit.charAt(str.length));
       const value = map[n];
       for(let i=0;i<value.length;i++){
-        que.push(str+val[i]);
+        que.push(str+value[i]);
     }
   }
   
