@@ -13,7 +13,7 @@ function letterCombinations(input_digit) {
     } else {
       const n = Number(input_digit.charAt(str.length));
       const value = map[n];
-      for(let i=0;i<val.length;i++){
+      for(let i=0;i<value.length;i++){
         que.push(str+val[i]);
     }
   }
