@@ -17,8 +17,9 @@ function letterCombinations(input_digit) {
         que.push(str+val[i]);
     }
   }
-  return res;
-}
+  
+  }
+return res;
 }  
 
 module.exports = letterCombinations;
